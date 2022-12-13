@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "aks101cluster"
+        },
+        "location": {
+            "value": "East US" 
+        },
+        "dnsPrefix": {
+            "value": "mycluster" 
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_d2s_v3"
+        },
+        "linuxAdminUsername": {
+            "value": "ubuntu" 
+        },
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCRsiB/orXZON+sQXSl+pD8JR8vYN2bh91sQ3BXg0JQ85s8/7LkfHBnLVBRK8UURscbxTa6OuznDrgFyrt1DKLxKV8tw6NCdZIYIpsJS06vf2Hu8PsB1b/3i7+2zyi0bWxq56QBfEjJj/80uqnDY8s7fnr3R4Q1R5oiYC/4PxxkCpHZB9yS7mnW6vKuX32fLDVnEDkXIjke9Tm3wmI97BLaV0emkQBdOhlQMezXsof3pBawaycYzbHQY2OyQuji5BSC8EvlVGqYNveYapO218i7bKfrBuCLIJRV99ZeDSVsI4+dg9dwHrkGbCXUqhEkdxT9ErjeiuJ2D9qmLYWavBBCtsSyy/AdbtLGocjwy6rr181JvGCZhMEeGD0rm+IlDDdfovw26yjpXGtQBDXr6xL45AxqO+lRLvp6o7I4h2UNlBl7qaZ+Q/dQ0RSHx0iw9LN3OqfRZi7F3Mjqiew9rPCCsqPRSee+gsT8cbm1kHbixCAQZlOtA1d38kyd9ssB/Hs= 10711705@LTILBOM20401505" 
+        }
+    }
+}
